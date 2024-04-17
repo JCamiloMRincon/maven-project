@@ -1,0 +1,97 @@
+21:03:59.640 INFO  AUTOMATION - Instantiating the sportsman 1
+21:03:59.658 DEBUG AUTOMATION - Creating the sportsman object
+21:04:00.280 INFO  AUTOMATION - Instantiating the sportsman 2
+21:04:00.281 DEBUG AUTOMATION - Creating the sportsman object
+21:04:00.396 INFO  AUTOMATION - Printing the information of both sportsmen
+21:04:00.404 INFO  AUTOMATION - Finding out the fastest sportsman
+21:04:00.430 INFO  AUTOMATION - Creating a random number between 20 and 50
+21:04:00.431 INFO  AUTOMATION - Creating the list of users
+21:04:00.433 DEBUG AUTOMATION - Creating the user object
+21:04:00.556 DEBUG AUTOMATION - Creating the user object
+21:04:00.625 DEBUG AUTOMATION - Creating the user object
+21:04:00.706 DEBUG AUTOMATION - Creating the user object
+21:04:00.816 DEBUG AUTOMATION - Creating the user object
+21:04:00.876 DEBUG AUTOMATION - Creating the user object
+21:04:00.918 DEBUG AUTOMATION - Creating the user object
+21:04:00.963 DEBUG AUTOMATION - Creating the user object
+21:04:01.003 DEBUG AUTOMATION - Creating the user object
+21:04:01.076 DEBUG AUTOMATION - Creating the user object
+21:04:01.119 DEBUG AUTOMATION - Creating the user object
+21:04:01.154 DEBUG AUTOMATION - Creating the user object
+21:04:01.190 DEBUG AUTOMATION - Creating the user object
+21:04:01.231 DEBUG AUTOMATION - Creating the user object
+21:04:01.263 DEBUG AUTOMATION - Creating the user object
+21:04:01.300 DEBUG AUTOMATION - Creating the user object
+21:04:01.336 DEBUG AUTOMATION - Creating the user object
+21:04:01.377 DEBUG AUTOMATION - Creating the user object
+21:04:01.409 DEBUG AUTOMATION - Creating the user object
+21:04:01.436 DEBUG AUTOMATION - Creating the user object
+21:04:01.465 DEBUG AUTOMATION - Creating the user object
+21:04:01.493 DEBUG AUTOMATION - Creating the user object
+21:04:01.534 DEBUG AUTOMATION - Creating the user object
+21:04:01.573 DEBUG AUTOMATION - Creating the user object
+21:04:01.611 DEBUG AUTOMATION - Creating the user object
+21:04:01.649 DEBUG AUTOMATION - Creating the user object
+21:04:01.692 DEBUG AUTOMATION - Creating the user object
+21:04:01.728 DEBUG AUTOMATION - Creating the user object
+21:04:01.768 DEBUG AUTOMATION - Creating the user object
+21:04:01.803 DEBUG AUTOMATION - Creating the user object
+21:04:01.837 DEBUG AUTOMATION - Creating the user object
+21:04:01.872 DEBUG AUTOMATION - Creating the user object
+21:04:01.898 DEBUG AUTOMATION - Creating the user object
+21:04:01.916 DEBUG AUTOMATION - Creating the user object
+21:04:01.939 DEBUG AUTOMATION - Creating the user object
+21:04:01.971 DEBUG AUTOMATION - Creating the user object
+21:04:01.997 DEBUG AUTOMATION - Creating the user object
+21:04:02.013 DEBUG AUTOMATION - Creating the user object
+21:04:02.060 DEBUG AUTOMATION - Creating the user object
+21:04:02.079 DEBUG AUTOMATION - Creating the user object
+21:04:02.100 DEBUG AUTOMATION - Creating the user object
+21:04:02.118 DEBUG AUTOMATION - Creating the user object
+21:04:02.135 INFO  AUTOMATION - Showing the list in the console
+21:04:02.192 DEBUG AUTOMATION - Getting the monsters list from Excel
+21:04:02.602 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:02.911 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:03.100 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+21:04:03.108 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+21:04:03.110 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+21:04:03.111 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+21:04:03.112 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+21:04:03.114 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+21:04:03.150 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+21:04:03.152 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+21:04:03.177 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+21:04:03.180 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+21:04:03.182 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+21:04:03.185 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+21:04:03.188 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+21:04:03.191 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+21:04:03.309 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+21:04:03.311 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+21:04:03.444 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+21:04:03.455 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctnumfmtsb58btype
+21:04:03.461 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctnumfmt3870type
+21:04:03.464 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+21:04:03.479 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+21:04:03.484 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+21:04:03.490 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+21:04:03.499 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+21:04:03.503 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+21:04:03.508 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+21:04:03.512 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+21:04:03.519 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+21:04:03.529 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+21:04:03.534 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+21:04:03.542 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+21:04:03.549 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+21:04:03.560 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+21:04:03.653 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+21:04:03.690 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+21:04:03.813 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+21:04:03.813 INFO  AUTOMATION - Creating the monsters list of type air
+21:04:03.818 DEBUG AUTOMATION - Getting the products list from Excel
+21:04:03.853 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:04:03.864 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:04:04.098 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+21:04:04.102 DEBUG AUTOMATION - Reading the user
+21:04:04.556 DEBUG AUTOMATION - Reading the array of jokes...

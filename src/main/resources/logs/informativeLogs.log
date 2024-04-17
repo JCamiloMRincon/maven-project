@@ -1,0 +1,8 @@
+21:03:59.640 INFO  AUTOMATION - Instantiating the sportsman 1
+21:04:00.280 INFO  AUTOMATION - Instantiating the sportsman 2
+21:04:00.396 INFO  AUTOMATION - Printing the information of both sportsmen
+21:04:00.404 INFO  AUTOMATION - Finding out the fastest sportsman
+21:04:00.430 INFO  AUTOMATION - Creating a random number between 20 and 50
+21:04:00.431 INFO  AUTOMATION - Creating the list of users
+21:04:02.135 INFO  AUTOMATION - Showing the list in the console
+21:04:03.813 INFO  AUTOMATION - Creating the monsters list of type air

@@ -1,0 +1,62 @@
+[
+    {
+        "type": "general",
+        "setup": "What do you call a troublesome Canadian high schooler?",
+        "punchline": "A poutine.",
+        "id": 219
+    },
+    {
+        "type": "programming",
+        "setup": "Why dot net developers don't wear glasses?",
+        "punchline": "Because they see sharp.",
+        "id": 383
+    },
+    {
+        "type": "general",
+        "setup": "I bought some shoes from a drug dealer.",
+        "punchline": "I don't know what he laced them with, but I was tripping all day!",
+        "id": 48
+    },
+    {
+        "type": "general",
+        "setup": "I couldn't get a reservation at the library...",
+        "punchline": "They were fully booked.",
+        "id": 71
+    },
+    {
+        "type": "general",
+        "setup": "Why are mummys scared of vacation?",
+        "punchline": "They're afraid to unwind.",
+        "id": 307
+    },
+    {
+        "type": "general",
+        "setup": "When does a joke become a dad joke?",
+        "punchline": "When it becomes apparent.",
+        "id": 286
+    },
+    {
+        "type": "general",
+        "setup": "How are false teeth like stars?",
+        "punchline": "They come out at night!",
+        "id": 113
+    },
+    {
+        "type": "general",
+        "setup": "Did you hear about the two silk worms in a race?",
+        "punchline": "It ended in a tie.",
+        "id": 19
+    },
+    {
+        "type": "general",
+        "setup": "What do you give to a lemon in need?",
+        "punchline": "Lemonaid.",
+        "id": 75
+    },
+    {
+        "type": "general",
+        "setup": "What do you do when you see a space man?",
+        "punchline": "Park your car, man.",
+        "id": 230
+    }
+]
