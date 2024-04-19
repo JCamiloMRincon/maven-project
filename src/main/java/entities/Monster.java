@@ -19,8 +19,28 @@ public class Monster {
     @ExcelCellName("NIVEL")
     private int level;
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
     public String getType() {
         return type;
+    }
+
+    public int getLevel() {
+        return level;
     }
 
     @Override

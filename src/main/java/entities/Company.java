@@ -16,4 +16,8 @@ public class Company {
     public String getCatchPhrase() {
         return catchPhrase;
     }
+
+    public String getBs() {
+        return bs;
+    }
 }

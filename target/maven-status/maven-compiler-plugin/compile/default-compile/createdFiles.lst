@@ -7,6 +7,8 @@ entities\Monster.class
 utilities\ExcelReader.class
 utilities\MapParser.class
 entities\Address.class
+entities\Sportsman.class
 entities\User.class
 entities\UserJson.class
 entities\Product.class
+utilities\Logs.class

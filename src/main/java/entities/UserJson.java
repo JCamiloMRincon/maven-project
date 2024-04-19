@@ -21,12 +21,24 @@ public class UserJson {
     @JsonProperty("company")
     private Company company;
 
+    public int getId() {
+        return id;
+    }
+
     public String getName() {
         return name;
     }
 
+    public String getUsername() {
+        return username;
+    }
+
     public Address getAddress() {
         return address;
+    }
+
+    public String getWebsite() {
+        return website;
     }
 
     public Company getCompany() {

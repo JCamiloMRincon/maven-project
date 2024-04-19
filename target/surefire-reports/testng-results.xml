@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T22:09:20 COT" name="Surefire suite" finished-at="2024-04-18T22:09:30 COT" duration-ms="9075">
+    <groups>
+      <group name="regression">
+        <method signature="ExcelMonsterTests.fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" name="fifthTest" class="principal.ExcelMonsterTests"/>
+        <method signature="ExcelMonsterTests.firstTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" name="firstTest" class="principal.ExcelMonsterTests"/>
+        <method signature="ExcelMonsterTests.fourthTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" name="fourthTest" class="principal.ExcelMonsterTests"/>
+        <method signature="ExcelMonsterTests.thirdTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" name="thirdTest" class="principal.ExcelMonsterTests"/>
+        <method signature="JsonUserTests.fourthTest()[pri:0, instance:principal.JsonUserTests@a50ae65]" name="fourthTest" class="principal.JsonUserTests"/>
+        <method signature="JsonUserTests.secondTest()[pri:0, instance:principal.JsonUserTests@a50ae65]" name="secondTest" class="principal.JsonUserTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ExcelMonsterTests.firstTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" name="firstTest" class="principal.ExcelMonsterTests"/>
+        <method signature="ExcelMonsterTests.thirdTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" name="thirdTest" class="principal.ExcelMonsterTests"/>
+        <method signature="JsonUserTests.fourthTest()[pri:0, instance:principal.JsonUserTests@a50ae65]" name="fourthTest" class="principal.JsonUserTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-04-18T22:09:20 COT" name="Surefire test" finished-at="2024-04-18T22:09:30 COT" duration-ms="9075">
+      <class name="principal.ExcelMonsterTests">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:24 COT" name="masterSetUp" finished-at="2024-04-18T22:09:24 COT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:25 COT" name="setUp" finished-at="2024-04-18T22:09:25 COT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:25 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:25 COT" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: TOLOSA
+    age: 5
+    weight: 1,97
+    gender: HEMBRA
+    type: AIRE
+    level: 90
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:25 COT" name="masterSetUp" finished-at="2024-04-18T22:09:25 COT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:25 COT" name="setUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:26 COT" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: COROMINAS
+    age: 1
+    weight: 2,31
+    gender: HEMBRA
+    type: AGUA
+    level: 74
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="masterSetUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="setUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:26 COT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: ARNAIZ
+    age: 5
+    weight: 2,27
+    gender: HEMBRA
+    type: FUEGO
+    level: 22
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="masterSetUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="setUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:26 COT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: CABEZAS
+    age: 2
+    weight: 2,05
+    gender: HEMBRA
+    type: FUEGO
+    level: 5
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="masterSetUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="setUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:26 COT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: SALCEDO
+    age: 2
+    weight: 6,87
+    gender: MACHO
+    type: PLANTA
+    level: 4
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="masterSetUp" finished-at="2024-04-18T22:09:26 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:26 COT" name="setUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:27 COT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: VAQUERO
+    age: 4
+    weight: 3,36
+    gender: MACHO
+    type: AGUA
+    level: 15
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="masterSetUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="setUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:27 COT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: REYES
+    age: 3
+    weight: 5,87
+    gender: MACHO
+    type: FUEGO
+    level: 33
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="masterSetUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="setUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:27 COT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: GALLO
+    age: 5
+    weight: 8,37
+    gender: MACHO
+    type: PLANTA
+    level: 81
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="masterSetUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="setUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:27 COT" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: VICENS
+    age: 5
+    weight: 8,99
+    gender: MACHO
+    type: AGUA
+    level: 75
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="masterSetUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="setUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:27 COT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: SEVILLANO
+    age: 5
+    weight: 8,22
+    gender: HEMBRA
+    type: ELECTRICO
+    level: 28
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="masterSetUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="setUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:27 COT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: ARIZA
+    age: 5
+    weight: 7,03
+    gender: MACHO
+    type: ELECTRICO
+    level: 63
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="masterSetUp" finished-at="2024-04-18T22:09:27 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:27 COT" name="setUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:28 COT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: DE VERDU
+    age: 1
+    weight: 8,99
+    gender: HEMBRA
+    type: FUEGO
+    level: 48
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="masterSetUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="setUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:28 COT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: UGARTE
+    age: 1
+    weight: 9,62
+    gender: HEMBRA
+    type: PLANTA
+    level: 99
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="masterSetUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="setUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifthTest(entities.Monster)[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="fifthTest" data-provider="Data Monsters" finished-at="2024-04-18T22:09:28 COT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+{
+    name: LUCENA
+    age: 3
+    weight: 8,57
+    gender: MACHO
+    type: PLANTA
+    level: 36
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="masterSetUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="setUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="firstTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="firstTest" finished-at="2024-04-18T22:09:28 COT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="masterSetUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="setUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fourthTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="fourthTest" finished-at="2024-04-18T22:09:28 COT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="masterSetUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="setUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="thirdTest()[pri:0, instance:principal.ExcelMonsterTests@6f099cef]" started-at="2024-04-18T22:09:28 COT" name="thirdTest" finished-at="2024-04-18T22:09:28 COT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+      </class> <!-- principal.ExcelMonsterTests -->
+      <class name="principal.JsonUserTests">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.JsonUserTests@a50ae65]" started-at="2024-04-18T22:09:28 COT" name="masterSetUp" finished-at="2024-04-18T22:09:28 COT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.JsonUserTests@a50ae65]" started-at="2024-04-18T22:09:28 COT" name="setUp" finished-at="2024-04-18T22:09:29 COT" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fourthTest()[pri:0, instance:principal.JsonUserTests@a50ae65]" started-at="2024-04-18T22:09:29 COT" name="fourthTest" finished-at="2024-04-18T22:09:29 COT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.JsonUserTests@a50ae65]" started-at="2024-04-18T22:09:30 COT" name="masterSetUp" finished-at="2024-04-18T22:09:30 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.JsonUserTests@a50ae65]" started-at="2024-04-18T22:09:30 COT" name="setUp" finished-at="2024-04-18T22:09:30 COT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="secondTest()[pri:0, instance:principal.JsonUserTests@a50ae65]" started-at="2024-04-18T22:09:30 COT" name="secondTest" finished-at="2024-04-18T22:09:30 COT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- principal.JsonUserTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
