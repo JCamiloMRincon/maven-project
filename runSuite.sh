@@ -1,1 +1,1 @@
-./mvnw clean test -Dgroups="automation"
+./mvnw clean test -Dgroups="sauce-demo-automation"

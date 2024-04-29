@@ -1,6 +1,7 @@
 utilities\WebDriverProvider.class
 utilities\FileManager.class
 principal\JsonUserTests.class
+automation\SauceDemoTests.class
 listeners\SuiteListeners.class
 utilities\BaseTest.class
 listeners\AllureListeners.class
@@ -8,4 +9,5 @@ principal\ExcelMonsterTests.class
 automation\NavigationTests.class
 data\CustomData.class
 listeners\TestListeners.class
+utilities\AutomationUtils.class
 listeners\AllureListeners$1.class

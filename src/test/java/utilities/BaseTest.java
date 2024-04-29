@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.asserts.SoftAssert;
 
+import java.time.Duration;
+
 @Listeners({ SuiteListeners.class, TestListeners.class })
 public class BaseTest {
 
@@ -17,6 +19,7 @@ public class BaseTest {
     protected final String regression = "regression";
     protected  final String smoke = "smoke";
     protected final String automation = "automation";
+    protected final String sauceDemo = "sauce-demo-automation";
 
     @BeforeMethod(alwaysRun = true)
     public void masterSetUp() {
@@ -28,6 +31,8 @@ public class BaseTest {
         driver.manage().window().maximize();
         Logs.debug("Clearing cookies...");
         driver.manage().deleteAllCookies();
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         new WebDriverProvider().set(driver);
     }
