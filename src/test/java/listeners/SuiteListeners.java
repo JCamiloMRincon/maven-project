@@ -2,6 +2,7 @@ package listeners;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
+import utilities.FileManager;
 import utilities.Logs;
 
 public class SuiteListeners implements ISuiteListener {
@@ -10,6 +11,7 @@ public class SuiteListeners implements ISuiteListener {
     public void onStart(ISuite suite) {
         Logs.info("""
                 On start""");
+        FileManager.deletePreviousEvidence();
     }
 
     @Override

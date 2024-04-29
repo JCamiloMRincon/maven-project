@@ -1,0 +1,14 @@
+19:24:15.041 INFO  AUTOMATION - On start
+19:24:25.524 INFO  AUTOMATION - On test starts: selectDescendingTest
+19:24:25.639 INFO  AUTOMATION - Navigating to the url
+19:24:27.109 INFO  AUTOMATION - Waiting for 3000 ms
+19:24:30.113 INFO  AUTOMATION - Writing the username
+19:24:30.388 INFO  AUTOMATION - Writing the password
+19:24:30.650 INFO  AUTOMATION - Click on the login button
+19:24:31.095 INFO  AUTOMATION - Waiting for 3000 ms
+19:24:34.200 INFO  AUTOMATION - Selecting the items alphabetically descending
+19:24:34.415 INFO  AUTOMATION - Getting the first item text
+19:24:34.474 INFO  AUTOMATION - Getting the last item text
+19:24:34.496 INFO  AUTOMATION - Verifying the names
+19:24:34.543 INFO  AUTOMATION - Test passed
+19:24:35.339 INFO  AUTOMATION - On finish

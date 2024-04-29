@@ -55,18 +55,75 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 18 22:09:20 COT 2024</td>
+<td>Started on:</td><td>Sun Apr 28 17:14:29 COT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9075 ms)</td>
+<tr><td>Total time:</td><td>33 seconds (33599 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>regression </td>
+<td>Included groups:</td><td>automation </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automation.NavigationTests.alwaysFailTest()'><b>alwaysFailTest</b><br>Test class: automation.NavigationTests</td>
+<td><div><pre>java.lang.AssertionError: expected [Hello world] but found [https://the-internet.herokuapp.com/]
+	at automation.NavigationTests.alwaysFailTest(NavigationTests.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1403032934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1403032934'><pre>java.lang.AssertionError: expected [Hello world] but found [https://the-internet.herokuapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at automation.NavigationTests.alwaysFailTest(NavigationTests.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>4</td>
+<td>automation.NavigationTests@30b2b76f</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,226 +133,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='principal.JsonUserTests.secondTest()'><b>secondTest</b><br>Test class: principal.JsonUserTests</td>
+<td title='automation.NavigationTests.firstTest()'><b>firstTest</b><br>Test class: automation.NavigationTests</td>
 <td></td>
-<td>0</td>
-<td>principal.JsonUserTests@a50ae65</td></tr>
+<td>2</td>
+<td>automation.NavigationTests@30b2b76f</td></tr>
 <tr>
-<td title='principal.ExcelMonsterTests.fourthTest()'><b>fourthTest</b><br>Test class: principal.ExcelMonsterTests</td>
+<td title='automation.NavigationTests.secondTest()'><b>secondTest</b><br>Test class: automation.NavigationTests</td>
 <td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: VAQUERO
-    age: 4
-    weight: 3,36
-    gender: MACHO
-    type: AGUA
-    level: 15
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: REYES
-    age: 3
-    weight: 5,87
-    gender: MACHO
-    type: FUEGO
-    level: 33
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: ARNAIZ
-    age: 5
-    weight: 2,27
-    gender: HEMBRA
-    type: FUEGO
-    level: 22
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.firstTest()'><b>firstTest</b><br>Test class: principal.ExcelMonsterTests</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: COROMINAS
-    age: 1
-    weight: 2,31
-    gender: HEMBRA
-    type: AGUA
-    level: 74
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: SEVILLANO
-    age: 5
-    weight: 8,22
-    gender: HEMBRA
-    type: ELECTRICO
-    level: 28
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: ARIZA
-    age: 5
-    weight: 7,03
-    gender: MACHO
-    type: ELECTRICO
-    level: 63
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.thirdTest()'><b>thirdTest</b><br>Test class: principal.ExcelMonsterTests</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: UGARTE
-    age: 1
-    weight: 9,62
-    gender: HEMBRA
-    type: PLANTA
-    level: 99
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: LUCENA
-    age: 3
-    weight: 8,57
-    gender: MACHO
-    type: PLANTA
-    level: 36
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: SALCEDO
-    age: 2
-    weight: 6,87
-    gender: MACHO
-    type: PLANTA
-    level: 4
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: TOLOSA
-    age: 5
-    weight: 1,97
-    gender: HEMBRA
-    type: AIRE
-    level: 90
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: CABEZAS
-    age: 2
-    weight: 2,05
-    gender: HEMBRA
-    type: FUEGO
-    level: 5
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: VICENS
-    age: 5
-    weight: 8,99
-    gender: MACHO
-    type: AGUA
-    level: 75
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: GALLO
-    age: 5
-    weight: 8,37
-    gender: MACHO
-    type: PLANTA
-    level: 81
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
-<tr>
-<td title='principal.JsonUserTests.fourthTest()'><b>fourthTest</b><br>Test class: principal.JsonUserTests</td>
-<td></td>
-<td>0</td>
-<td>principal.JsonUserTests@a50ae65</td></tr>
-<tr>
-<td title='principal.ExcelMonsterTests.fifthTest()'><b>fifthTest</b><br>Test class: principal.ExcelMonsterTests<br>Parameters: 
-{
-    name: DE VERDU
-    age: 1
-    weight: 8,99
-    gender: HEMBRA
-    type: FUEGO
-    level: 48
-}
-</td>
-<td></td>
-<td>0</td>
-<td>principal.ExcelMonsterTests@6f099cef</td></tr>
+<td>7</td>
+<td>automation.NavigationTests@30b2b76f</td></tr>
 </table><p>
 </body>
 </html>

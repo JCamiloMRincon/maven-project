@@ -1,6 +1,11 @@
-principal\ExcelMonsterTests.class
+utilities\WebDriverProvider.class
+utilities\FileManager.class
 principal\JsonUserTests.class
-data\CustomData.class
 listeners\SuiteListeners.class
-listeners\TestListeners.class
 utilities\BaseTest.class
+listeners\AllureListeners.class
+principal\ExcelMonsterTests.class
+automation\NavigationTests.class
+data\CustomData.class
+listeners\TestListeners.class
+listeners\AllureListeners$1.class

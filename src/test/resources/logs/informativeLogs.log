@@ -1,0 +1,14 @@
+19:33:16.531 INFO  AUTOMATION - On start
+19:33:26.728 INFO  AUTOMATION - On test starts: selectPriceTest
+19:33:26.831 INFO  AUTOMATION - Navigating to the url
+19:33:28.667 INFO  AUTOMATION - Waiting for 3000 ms
+19:33:31.671 INFO  AUTOMATION - Writing the username
+19:33:31.938 INFO  AUTOMATION - Writing the password
+19:33:32.172 INFO  AUTOMATION - Click on the login button
+19:33:32.553 INFO  AUTOMATION - Waiting for 3000 ms
+19:33:35.646 INFO  AUTOMATION - Selecting the items from low to high price
+19:33:35.844 INFO  AUTOMATION - Getting the first item price
+19:33:35.908 INFO  AUTOMATION - Getting the last item price
+19:33:35.937 INFO  AUTOMATION - Verifying the prices
+19:33:35.986 INFO  AUTOMATION - Test passed
+19:33:36.687 INFO  AUTOMATION - On finish
