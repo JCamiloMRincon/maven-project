@@ -1,7 +1,8 @@
-21:00:28.808 INFO  AUTOMATION - On start
-21:00:37.501 INFO  AUTOMATION - On test starts: hoverTest
-21:00:37.583 INFO  AUTOMATION - Navigating to the main page
-21:00:54.179 INFO  AUTOMATION - Hovering over the green button
-21:00:56.914 INFO  AUTOMATION - Verifying the text after hovering
-21:00:57.052 INFO  AUTOMATION - Test passed
-21:01:09.619 INFO  AUTOMATION - On finish
+21:16:07.517 INFO  AUTOMATION - On start
+21:16:21.797 INFO  AUTOMATION - On test starts: shadowDomSearchTextTest
+21:16:21.937 INFO  AUTOMATION - Navigating to the page
+21:16:25.041 INFO  AUTOMATION - Writing 'hello world' in the input
+21:16:26.062 INFO  AUTOMATION - Waiting for 2000 ms
+21:16:28.177 INFO  AUTOMATION - Verifying that the list of books is visible
+21:16:28.367 INFO  AUTOMATION - Test passed
+21:16:32.685 INFO  AUTOMATION - On finish

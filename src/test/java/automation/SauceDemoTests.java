@@ -1,10 +1,10 @@
 package automation;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.AutomationUtils;
 import utilities.BaseTest;
 import utilities.Logs;
 
@@ -242,5 +242,131 @@ public class SauceDemoTests extends BaseTest {
 
         Logs.info("Verifying that it would be returned the login page");
         Assert.assertTrue(driver.findElement(userNameLocator).isDisplayed());
+    }
+
+    @Test
+    public void deleteCookiesTest() {
+        Logs.info("Navigating to the url");
+        driver.get("https://www.saucedemo.com/");
+
+        final var userNameLocator = By.id("user-name");
+
+        Logs.info("Writing the username");
+        driver.findElement(userNameLocator).sendKeys("standard_user");
+
+        Logs.info("Writing the password");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+
+        Logs.info("Click on the login button");
+        driver.findElement(By.id("login-button")).click();
+
+        Logs.info("Get the set of cookies");
+        var cookiesSet = driver.manage().getCookies();
+
+        Logs.info("Verifying that the number of cookies is 1");
+        Assert.assertEquals(cookiesSet.size(), 1);
+
+        Logs.info("Deleting the cookies");
+        driver.manage().deleteAllCookies();
+
+        Logs.info("Getting the set of cookies again");
+        cookiesSet = driver.manage().getCookies();
+
+        Logs.info("Verifying that the number of cookies is 0");
+        Assert.assertEquals(cookiesSet.size(), 0);
+    }
+
+    @Test
+    public void getCookieTest() {
+        Logs.info("Navigating to the url");
+        driver.get("https://www.saucedemo.com/");
+
+        final var userNameLocator = By.id("user-name");
+
+        Logs.info("Writing the username");
+        driver.findElement(userNameLocator).sendKeys("standard_user");
+
+        Logs.info("Writing the password");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+
+        Logs.info("Click on the login button");
+        driver.findElement(By.id("login-button")).click();
+
+        Logs.info("Getting the info of the login cookie");
+        final var cookieLogin = driver.manage().getCookieNamed("session-username");
+
+        Logs.info("Verifying that its value is standard_user");
+        Assert.assertEquals(cookieLogin.getValue(), "standard_user");
+    }
+
+    @Test
+    public void relativeLocatorPriceTest() {
+        Logs.info("Navigating to the url");
+        driver.get("https://www.saucedemo.com/");
+
+        final var userNameLocator = By.id("user-name");
+
+        Logs.info("Writing the username");
+        driver.findElement(userNameLocator).sendKeys("standard_user");
+
+        Logs.info("Writing the password");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+
+        Logs.info("Click on the login button");
+        driver.findElement(By.id("login-button")).click();
+
+        /*
+           I get the locator relatively, this has a tag button.
+           Besides, it is located below the text 'Sauce Labs Bolt T-Shirt'
+        */
+
+        final var locator = (By) RelativeLocator
+                .with(By.className("inventory_item_price"))                               // Item harder to find
+                .below(By.xpath("//div[text()='Sauce Labs Bolt T-Shirt']")); // Item easier to find
+
+        // I find the price: delete the dollar symbol '$' -> change to double
+        final var price = Double.parseDouble(driver.findElement(locator).getText().substring(1));
+
+        Logs.info("Verifying that the price is right");
+        Assert.assertEquals(price, 15.99);
+    }
+
+    @Test
+    public void relativeLocatorAddToCardTest() {
+        Logs.info("Navigating to the url");
+        driver.get("https://www.saucedemo.com/");
+
+        final var userNameLocator = By.id("user-name");
+
+        Logs.info("Writing the username");
+        driver.findElement(userNameLocator).sendKeys("standard_user");
+
+        Logs.info("Writing the password");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+
+        Logs.info("Click on the login button");
+        driver.findElement(By.id("login-button")).click();
+
+        /*
+           I get the locator relatively, this has a tag button.
+           Besides, it is located below the text 'Sauce Labs Fleece Jacket'
+        */
+
+        final var locator = (By) RelativeLocator
+                .with(By.tagName("button"))                                                // Item harder to find
+                .below(By.xpath("//div[text()='Sauce Labs Fleece Jacket']")); // Item easier to find
+
+        var cartButton = driver.findElement(locator);
+
+        Logs.info("Verifying that its text is 'Add to cart'");
+        Assert.assertEquals(cartButton.getText(), "Add to cart");
+
+        Logs.info("Clicking on the button 'Add to cart' of the item 'Sauce Labs Fleece Jacket'");
+        cartButton.click();
+
+        cartButton = driver.findElement(locator);
+
+        Logs.info("Verifying that its text is 'Removed'");
+        Assert.assertEquals(cartButton.getText(), "Remove");
     }
 }

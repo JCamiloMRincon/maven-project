@@ -1,7 +1,6 @@
-20:53:25.638 INFO  AUTOMATION - On start
-20:53:33.770 INFO  AUTOMATION - On test starts: dragAndDropTest
-20:53:33.892 INFO  AUTOMATION - Navigating to the main page
-20:53:51.156 INFO  AUTOMATION - Moving the origin figure to the destiny figure
-20:53:52.404 INFO  AUTOMATION - Verifying that the 'dropped' label is visible
-20:53:53.331 INFO  AUTOMATION - Test passed
-20:53:54.198 INFO  AUTOMATION - On finish
+21:03:23.300 INFO  AUTOMATION - On start
+21:03:31.500 INFO  AUTOMATION - On test starts: shadowDomTest
+21:03:31.803 INFO  AUTOMATION - Navigating to the page
+21:03:34.678 INFO  AUTOMATION - Verifying that the text is right
+21:03:34.862 INFO  AUTOMATION - Test passed
+21:03:37.489 INFO  AUTOMATION - On finish
