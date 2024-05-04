@@ -1,128 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-28T20:19:25 COT" name="Surefire suite" finished-at="2024-04-28T20:20:30 COT" duration-ms="65156">
+  <suite started-at="2024-05-02T16:00:22 COT" name="Surefire suite" finished-at="2024-05-02T16:02:03 COT" duration-ms="101242">
     <groups>
       <group name="sauce-demo-automation">
-        <method signature="SauceDemoTests.aboutLinkTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="aboutLinkTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.facebookLinkTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="facebookLinkTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.invalidUserTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="invalidUserTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.itemDetailTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="itemDetailTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.linkedinLinkTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="linkedinLinkTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.logoutTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="logoutTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.selectDescendingTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="selectDescendingTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.selectPriceTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="selectPriceTest" class="automation.SauceDemoTests"/>
-        <method signature="SauceDemoTests.validUserTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" name="validUserTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.aboutLinkTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="aboutLinkTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.deleteCookiesTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="deleteCookiesTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.facebookLinkTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="facebookLinkTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.getCookieTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="getCookieTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.invalidUserTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="invalidUserTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.itemDetailTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="itemDetailTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.linkedinLinkTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="linkedinLinkTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.logoutTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="logoutTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.relativeLocatorAddToCardTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="relativeLocatorAddToCardTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.relativeLocatorPriceTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="relativeLocatorPriceTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.selectDescendingTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="selectDescendingTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.selectPriceTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="selectPriceTest" class="automation.SauceDemoTests"/>
+        <method signature="SauceDemoTests.validUserTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" name="validUserTest" class="automation.SauceDemoTests"/>
       </group> <!-- sauce-demo-automation -->
     </groups>
-    <test started-at="2024-04-28T20:19:25 COT" name="Surefire test" finished-at="2024-04-28T20:20:30 COT" duration-ms="65156">
+    <test started-at="2024-05-02T16:00:22 COT" name="Surefire test" finished-at="2024-05-02T16:02:03 COT" duration-ms="101242">
       <class name="automation.SauceDemoTests">
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:25 COT" name="masterSetUp" finished-at="2024-04-28T20:19:34 COT" duration-ms="9146" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:22 COT" name="masterSetUp" finished-at="2024-05-02T16:00:31 COT" duration-ms="9010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="aboutLinkTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:35 COT" name="aboutLinkTest" finished-at="2024-04-28T20:19:39 COT" duration-ms="3984" status="PASS">
+        <test-method signature="aboutLinkTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:31 COT" name="aboutLinkTest" finished-at="2024-05-02T16:00:36 COT" duration-ms="4608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutLinkTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:39 COT" name="masterTearDown" finished-at="2024-04-28T20:19:40 COT" duration-ms="1480" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:36 COT" name="masterTearDown" finished-at="2024-05-02T16:00:37 COT" duration-ms="906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:40 COT" name="masterSetUp" finished-at="2024-04-28T20:19:43 COT" duration-ms="3141" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:37 COT" name="masterSetUp" finished-at="2024-05-02T16:00:40 COT" duration-ms="3134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="facebookLinkTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:43 COT" name="facebookLinkTest" finished-at="2024-04-28T20:19:46 COT" duration-ms="2874" status="PASS">
+        <test-method signature="deleteCookiesTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:40 COT" name="deleteCookiesTest" finished-at="2024-05-02T16:00:43 COT" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:43 COT" name="masterTearDown" finished-at="2024-05-02T16:00:43 COT" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:43 COT" name="masterSetUp" finished-at="2024-05-02T16:00:46 COT" duration-ms="2809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="facebookLinkTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:46 COT" name="facebookLinkTest" finished-at="2024-05-02T16:00:50 COT" duration-ms="4211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLinkTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:46 COT" name="masterTearDown" finished-at="2024-04-28T20:19:47 COT" duration-ms="513" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:50 COT" name="masterTearDown" finished-at="2024-05-02T16:00:51 COT" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:47 COT" name="masterSetUp" finished-at="2024-04-28T20:19:50 COT" duration-ms="3067" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:51 COT" name="masterSetUp" finished-at="2024-05-02T16:00:54 COT" duration-ms="2992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="invalidUserTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:50 COT" name="invalidUserTest" finished-at="2024-04-28T20:19:52 COT" duration-ms="2322" status="PASS">
+        <test-method signature="getCookieTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:54 COT" name="getCookieTest" finished-at="2024-05-02T16:00:57 COT" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookieTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:57 COT" name="masterTearDown" finished-at="2024-05-02T16:00:58 COT" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:00:58 COT" name="masterSetUp" finished-at="2024-05-02T16:01:01 COT" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="invalidUserTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:01 COT" name="invalidUserTest" finished-at="2024-05-02T16:01:03 COT" duration-ms="2431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:52 COT" name="masterTearDown" finished-at="2024-04-28T20:19:53 COT" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:03 COT" name="masterTearDown" finished-at="2024-05-02T16:01:04 COT" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:53 COT" name="masterSetUp" finished-at="2024-04-28T20:19:55 COT" duration-ms="2793" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:04 COT" name="masterSetUp" finished-at="2024-05-02T16:01:06 COT" duration-ms="2776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="itemDetailTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:55 COT" name="itemDetailTest" finished-at="2024-04-28T20:19:59 COT" duration-ms="3354" status="PASS">
+        <test-method signature="itemDetailTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:06 COT" name="itemDetailTest" finished-at="2024-05-02T16:01:10 COT" duration-ms="3544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- itemDetailTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:59 COT" name="masterTearDown" finished-at="2024-04-28T20:19:59 COT" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:10 COT" name="masterTearDown" finished-at="2024-05-02T16:01:10 COT" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:19:59 COT" name="masterSetUp" finished-at="2024-04-28T20:20:02 COT" duration-ms="2777" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:10 COT" name="masterSetUp" finished-at="2024-05-02T16:01:13 COT" duration-ms="2772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="linkedinLinkTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:02 COT" name="linkedinLinkTest" finished-at="2024-04-28T20:20:05 COT" duration-ms="2834" status="PASS">
+        <test-method signature="linkedinLinkTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:13 COT" name="linkedinLinkTest" finished-at="2024-05-02T16:01:16 COT" duration-ms="3244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkedinLinkTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:05 COT" name="masterTearDown" finished-at="2024-04-28T20:20:05 COT" duration-ms="411" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:16 COT" name="masterTearDown" finished-at="2024-05-02T16:01:18 COT" duration-ms="1509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:05 COT" name="masterSetUp" finished-at="2024-04-28T20:20:08 COT" duration-ms="2960" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:18 COT" name="masterSetUp" finished-at="2024-05-02T16:01:21 COT" duration-ms="3500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="logoutTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:08 COT" name="logoutTest" finished-at="2024-04-28T20:20:11 COT" duration-ms="2838" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:21 COT" name="logoutTest" finished-at="2024-05-02T16:01:30 COT" duration-ms="8452" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: inventory_list (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\SuperUs\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60323/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3feea8a02568f156d1e377ad36663cf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: inventory_list (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\SuperUs\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60323/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3feea8a02568f156d1e377ad36663cf
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at automation.SauceDemoTests.logoutTest(SauceDemoTests.java:309)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:11 COT" name="masterTearDown" finished-at="2024-04-28T20:20:12 COT" duration-ms="487" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:31 COT" name="masterTearDown" finished-at="2024-05-02T16:01:32 COT" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:12 COT" name="masterSetUp" finished-at="2024-04-28T20:20:14 COT" duration-ms="2848" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:32 COT" name="masterSetUp" finished-at="2024-05-02T16:01:35 COT" duration-ms="3255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="selectDescendingTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:14 COT" name="selectDescendingTest" finished-at="2024-04-28T20:20:17 COT" duration-ms="2972" status="PASS">
+        <test-method signature="relativeLocatorAddToCardTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:35 COT" name="relativeLocatorAddToCardTest" finished-at="2024-05-02T16:01:38 COT" duration-ms="2936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relativeLocatorAddToCardTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:38 COT" name="masterTearDown" finished-at="2024-05-02T16:01:39 COT" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:39 COT" name="masterSetUp" finished-at="2024-05-02T16:01:42 COT" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="relativeLocatorPriceTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:42 COT" name="relativeLocatorPriceTest" finished-at="2024-05-02T16:01:44 COT" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relativeLocatorPriceTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:44 COT" name="masterTearDown" finished-at="2024-05-02T16:01:45 COT" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:45 COT" name="masterSetUp" finished-at="2024-05-02T16:01:47 COT" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="selectDescendingTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:47 COT" name="selectDescendingTest" finished-at="2024-05-02T16:01:50 COT" duration-ms="2950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDescendingTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:17 COT" name="masterTearDown" finished-at="2024-04-28T20:20:18 COT" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:50 COT" name="masterTearDown" finished-at="2024-05-02T16:01:51 COT" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:18 COT" name="masterSetUp" finished-at="2024-04-28T20:20:21 COT" duration-ms="2932" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:51 COT" name="masterSetUp" finished-at="2024-05-02T16:01:54 COT" duration-ms="2683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="selectPriceTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:21 COT" name="selectPriceTest" finished-at="2024-04-28T20:20:24 COT" duration-ms="3145" status="PASS">
+        <test-method signature="selectPriceTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:54 COT" name="selectPriceTest" finished-at="2024-05-02T16:01:56 COT" duration-ms="2894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPriceTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:24 COT" name="masterTearDown" finished-at="2024-04-28T20:20:24 COT" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:56 COT" name="masterTearDown" finished-at="2024-05-02T16:01:57 COT" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:24 COT" name="masterSetUp" finished-at="2024-04-28T20:20:27 COT" duration-ms="2980" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:01:57 COT" name="masterSetUp" finished-at="2024-05-02T16:02:00 COT" duration-ms="2693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method signature="validUserTest()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:27 COT" name="validUserTest" finished-at="2024-04-28T20:20:30 COT" duration-ms="2331" status="PASS">
+        <test-method signature="validUserTest()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:02:00 COT" name="validUserTest" finished-at="2024-05-02T16:02:02 COT" duration-ms="2794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUserTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@6de30571]" started-at="2024-04-28T20:20:30 COT" name="masterTearDown" finished-at="2024-04-28T20:20:30 COT" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.SauceDemoTests@4455f57d]" started-at="2024-05-02T16:02:02 COT" name="masterTearDown" finished-at="2024-05-02T16:02:03 COT" duration-ms="526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->

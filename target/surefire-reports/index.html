@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +122,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="deleteCookiesTest">deleteCookiesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="facebookLinkTest">facebookLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="getCookieTest">getCookieTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,7 +152,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="relativeLocatorAddToCardTest">relativeLocatorAddToCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation.SauceDemoTests" class="method navigator-link" hash-for-method="relativeLocatorPriceTest">relativeLocatorPriceTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -158,6 +187,33 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">automation.SauceDemoTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: inventory_list (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\SuperUs\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60323/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3feea8a02568f156d1e377ad36663cf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at automation.SauceDemoTests.logoutTest(SauceDemoTests.java:309)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -173,9 +229,23 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="deleteCookiesTest">
+                  </a> <!-- deleteCookiesTest -->
+                  <span class="method-name">deleteCookiesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="facebookLinkTest">
                   </a> <!-- facebookLinkTest -->
                   <span class="method-name">facebookLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCookieTest">
+                  </a> <!-- getCookieTest -->
+                  <span class="method-name">getCookieTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -201,9 +271,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logoutTest">
-                  </a> <!-- logoutTest -->
-                  <span class="method-name">logoutTest</span>
+                  <a name="relativeLocatorAddToCardTest">
+                  </a> <!-- relativeLocatorAddToCardTest -->
+                  <span class="method-name">relativeLocatorAddToCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="relativeLocatorPriceTest">
+                  </a> <!-- relativeLocatorPriceTest -->
+                  <span class="method-name">relativeLocatorPriceTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -255,8 +332,13 @@
       &lt;/method-selector&gt;
     &lt;/method-selectors&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;automation.BooksPwakitTests&quot;/&gt;
+      &lt;class name=&quot;automation.DemoQATests&quot;/&gt;
       &lt;class name=&quot;automation.NavigationTests&quot;/&gt;
       &lt;class name=&quot;automation.SauceDemoTests&quot;/&gt;
+      &lt;class name=&quot;automation.SeleniumDevTests&quot;/&gt;
+      &lt;class name=&quot;automation.TestPagesTests&quot;/&gt;
+      &lt;class name=&quot;automation.TutorialsPointTests&quot;/&gt;
       &lt;class name=&quot;listeners.TestListeners&quot;/&gt;
       &lt;class name=&quot;principal.ExcelMonsterTests&quot;/&gt;
       &lt;class name=&quot;principal.JsonUserTests&quot;/&gt;
@@ -274,7 +356,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (6 classes)</span>
+                <span class="test-name">Surefire test (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -292,7 +374,15 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">deleteCookiesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">facebookLinkTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getCookieTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -309,6 +399,14 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">logoutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">relativeLocatorAddToCardTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">relativeLocatorPriceTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -340,48 +438,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'aboutLinkTest')
+data.setCell(0, 1, 'logoutTest')
 data.setCell(0, 2, 'automation.SauceDemoTests')
-data.setCell(0, 3, 3984);
+data.setCell(0, 3, 8452);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'itemDetailTest')
+data.setCell(1, 1, 'aboutLinkTest')
 data.setCell(1, 2, 'automation.SauceDemoTests')
-data.setCell(1, 3, 3354);
+data.setCell(1, 3, 4608);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'selectPriceTest')
+data.setCell(2, 1, 'facebookLinkTest')
 data.setCell(2, 2, 'automation.SauceDemoTests')
-data.setCell(2, 3, 3145);
+data.setCell(2, 3, 4211);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectDescendingTest')
+data.setCell(3, 1, 'itemDetailTest')
 data.setCell(3, 2, 'automation.SauceDemoTests')
-data.setCell(3, 3, 2972);
+data.setCell(3, 3, 3544);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'facebookLinkTest')
+data.setCell(4, 1, 'getCookieTest')
 data.setCell(4, 2, 'automation.SauceDemoTests')
-data.setCell(4, 3, 2874);
+data.setCell(4, 3, 3267);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'logoutTest')
+data.setCell(5, 1, 'linkedinLinkTest')
 data.setCell(5, 2, 'automation.SauceDemoTests')
-data.setCell(5, 3, 2838);
+data.setCell(5, 3, 3244);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'linkedinLinkTest')
+data.setCell(6, 1, 'selectDescendingTest')
 data.setCell(6, 2, 'automation.SauceDemoTests')
-data.setCell(6, 3, 2834);
+data.setCell(6, 3, 2950);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validUserTest')
+data.setCell(7, 1, 'relativeLocatorAddToCardTest')
 data.setCell(7, 2, 'automation.SauceDemoTests')
-data.setCell(7, 3, 2331);
+data.setCell(7, 3, 2936);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'invalidUserTest')
+data.setCell(8, 1, 'selectPriceTest')
 data.setCell(8, 2, 'automation.SauceDemoTests')
-data.setCell(8, 3, 2322);
+data.setCell(8, 3, 2894);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteCookiesTest')
+data.setCell(9, 2, 'automation.SauceDemoTests')
+data.setCell(9, 3, 2860);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validUserTest')
+data.setCell(10, 2, 'automation.SauceDemoTests')
+data.setCell(10, 3, 2794);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'relativeLocatorPriceTest')
+data.setCell(11, 2, 'automation.SauceDemoTests')
+data.setCell(11, 3, 2660);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invalidUserTest')
+data.setCell(12, 2, 'automation.SauceDemoTests')
+data.setCell(12, 3, 2431);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -396,43 +510,92 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">12 ignored methods</span>
+            <span class="header-content">24 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">automation.NavigationTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">secondTest</span>
+                <br/>
+                <span class="ignored-method-name">alwaysFailTest</span>
+                <br/>
+                <span class="ignored-method-name">firstTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation.SeleniumDevTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">scrollToFrameTest</span>
+                <br/>
+                <span class="ignored-method-name">randomScrollTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation.DemoQATests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">keyboardNameTest</span>
+                <br/>
+                <span class="ignored-method-name">hoverTest</span>
+                <br/>
+                <span class="ignored-method-name">dragAndDropTest</span>
+                <br/>
+                <span class="ignored-method-name">keyboardAddressTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">principal.JsonUserTests</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">fourthTest</span>
+                <br/>
+                <span class="ignored-method-name">secondTest</span>
+                <br/>
                 <span class="ignored-method-name">thirdTest</span>
                 <br/>
                 <span class="ignored-method-name">firstTest</span>
                 <br/>
-                <span class="ignored-method-name">secondTest</span>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation.BooksPwakitTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shadowDomTest</span>
                 <br/>
-                <span class="ignored-method-name">fourthTest</span>
+                <span class="ignored-method-name">shadowDomSearchTextTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation.TestPagesTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">uploadFileTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation.TutorialsPointTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tabTest</span>
+                <br/>
+                <span class="ignored-method-name">windowTest</span>
+                <br/>
+                <span class="ignored-method-name">iframeTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">principal.ExcelMonsterTests</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">fifthTest</span>
-                <br/>
-                <span class="ignored-method-name">firstTest</span>
+                <span class="ignored-method-name">secondTest</span>
                 <br/>
                 <span class="ignored-method-name">thirdTest</span>
                 <br/>
-                <span class="ignored-method-name">secondTest</span>
-                <br/>
                 <span class="ignored-method-name">fourthTest</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">automation.NavigationTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">alwaysFailTest</span>
-                <br/>
-                <span class="ignored-method-name">secondTest</span>
+                <span class="ignored-method-name">fifthTest</span>
                 <br/>
                 <span class="ignored-method-name">firstTest</span>
                 <br/>
@@ -453,107 +616,157 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">aboutLinkTest</span>
-                <span class="method-start">9504 ms</span>
+                <span class="method-start">9368 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">13586 ms</span>
+                <span class="method-start">14040 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">15083 ms</span>
+                <span class="method-start">14966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteCookiesTest</span>
+                <span class="method-start">18103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">masterTearDown</span>
+                <span class="method-start">20967 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">masterSetUp</span>
+                <span class="method-start">21450 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">facebookLinkTest</span>
-                <span class="method-start">18226 ms</span>
+                <span class="method-start">24263 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">21108 ms</span>
+                <span class="method-start">28482 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">21625 ms</span>
+                <span class="method-start">29056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCookieTest</span>
+                <span class="method-start">32051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">masterTearDown</span>
+                <span class="method-start">35330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">masterSetUp</span>
+                <span class="method-start">36154 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidUserTest</span>
-                <span class="method-start">24695 ms</span>
+                <span class="method-start">38996 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">27021 ms</span>
+                <span class="method-start">41430 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">27430 ms</span>
+                <span class="method-start">41761 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">itemDetailTest</span>
-                <span class="method-start">30226 ms</span>
+                <span class="method-start">44543 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">33585 ms</span>
+                <span class="method-start">48090 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">33936 ms</span>
+                <span class="method-start">48517 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">linkedinLinkTest</span>
-                <span class="method-start">36718 ms</span>
+                <span class="method-start">51293 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">39564 ms</span>
+                <span class="method-start">54543 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">39979 ms</span>
+                <span class="method-start">56059 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">logoutTest</span>
-                <span class="method-start">42942 ms</span>
+                <span class="method-start">59561 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">45785 ms</span>
+                <span class="method-start">69445 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">46275 ms</span>
+                <span class="method-start">70415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">relativeLocatorAddToCardTest</span>
+                <span class="method-start">73673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">masterTearDown</span>
+                <span class="method-start">76612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">masterSetUp</span>
+                <span class="method-start">77069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">relativeLocatorPriceTest</span>
+                <span class="method-start">79817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">masterTearDown</span>
+                <span class="method-start">82480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">masterSetUp</span>
+                <span class="method-start">82914 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectDescendingTest</span>
-                <span class="method-start">49125 ms</span>
+                <span class="method-start">85640 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">52101 ms</span>
+                <span class="method-start">88593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">52519 ms</span>
+                <span class="method-start">89020 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectPriceTest</span>
-                <span class="method-start">55454 ms</span>
+                <span class="method-start">91705 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">58603 ms</span>
+                <span class="method-start">94604 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">masterSetUp</span>
-                <span class="method-start">59017 ms</span>
+                <span class="method-start">95017 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validUserTest</span>
-                <span class="method-start">62001 ms</span>
+                <span class="method-start">97712 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">masterTearDown</span>
-                <span class="method-start">64344 ms</span>
+                <span class="method-start">100511 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

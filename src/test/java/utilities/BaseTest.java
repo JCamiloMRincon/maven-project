@@ -4,6 +4,7 @@ import listeners.SuiteListeners;
 import listeners.TestListeners;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -20,6 +21,9 @@ public class BaseTest {
     protected  final String smoke = "smoke";
     protected final String automation = "automation";
     protected final String sauceDemo = "sauce-demo-automation";
+    protected final String login = "sauce-demo-login";
+    protected final String shopping = "sauce-demo-shopping";
+    protected WebDriverWait wait;
 
     @BeforeMethod(alwaysRun = true)
     public void masterSetUp() {
@@ -31,8 +35,6 @@ public class BaseTest {
         driver.manage().window().maximize();
         Logs.debug("Clearing cookies...");
         driver.manage().deleteAllCookies();
-
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         new WebDriverProvider().set(driver);
     }

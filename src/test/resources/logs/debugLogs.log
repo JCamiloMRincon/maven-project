@@ -1,17 +1,26 @@
-21:16:07.517 INFO  AUTOMATION - On start
-21:16:07.757 DEBUG AUTOMATION - Deleting the previous evidence...
-21:16:08.229 DEBUG AUTOMATION - Init driver...
-21:16:21.216 DEBUG AUTOMATION - Maximizing window...
-21:16:21.390 DEBUG AUTOMATION - Clearing cookies...
-21:16:21.797 INFO  AUTOMATION - On test starts: shadowDomSearchTextTest
-21:16:21.937 INFO  AUTOMATION - Navigating to the page
-21:16:24.843 DEBUG AUTOMATION - Getting the shadow root
-21:16:24.929 DEBUG AUTOMATION - Getting the input through the shadow root
-21:16:25.041 INFO  AUTOMATION - Writing 'hello world' in the input
-21:16:26.062 INFO  AUTOMATION - Waiting for 2000 ms
-21:16:28.075 DEBUG AUTOMATION - Getting the inner shadow root
-21:16:28.177 INFO  AUTOMATION - Verifying that the list of books is visible
-21:16:28.252 DEBUG AUTOMATION - Before test stops of Allure
-21:16:28.367 INFO  AUTOMATION - Test passed
-21:16:28.381 DEBUG AUTOMATION - Killing driver...
-21:16:32.685 INFO  AUTOMATION - On finish
+21:20:00.936 INFO  AUTOMATION - On start
+21:20:00.981 DEBUG AUTOMATION - Deleting the previous evidence...
+21:20:01.321 DEBUG AUTOMATION - Init driver...
+21:20:09.568 DEBUG AUTOMATION - Maximizing window...
+21:20:09.935 DEBUG AUTOMATION - Clearing cookies...
+21:20:10.618 INFO  AUTOMATION - Navigating to the url
+21:20:12.800 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
+21:20:13.145 INFO  AUTOMATION - LoginPage has loaded successfully
+21:20:13.157 INFO  AUTOMATION - Writing the username
+21:20:13.469 INFO  AUTOMATION - Writing the password
+21:20:13.848 INFO  AUTOMATION - Click on the login button
+21:20:14.617 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
+21:20:14.767 INFO  AUTOMATION - ShoppingPage has loaded successfully
+21:20:14.770 INFO  AUTOMATION - Opening the burger menu
+21:20:15.106 INFO  AUTOMATION - Waiting for the page BurgerMenuPage to be completely loaded
+21:20:15.278 INFO  AUTOMATION - BurgerMenuPage has loaded successfully
+21:20:15.279 INFO  AUTOMATION - Waiting for the logout button to be clickable because it has an animation
+21:20:15.526 INFO  AUTOMATION - On test starts: logoutTest
+21:20:15.701 INFO  AUTOMATION - Click on the logout option
+21:20:15.924 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
+21:20:15.979 INFO  AUTOMATION - LoginPage has loaded successfully
+21:20:15.981 INFO  AUTOMATION - Verifying the login page
+21:20:16.495 DEBUG AUTOMATION - Before test stops of Allure
+21:20:16.520 INFO  AUTOMATION - Test passed
+21:20:16.523 DEBUG AUTOMATION - Killing driver...
+21:20:21.043 INFO  AUTOMATION - On finish
