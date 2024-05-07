@@ -15,33 +15,25 @@ import java.time.Duration;
 @Listeners({ SuiteListeners.class, TestListeners.class })
 public class BaseTest {
 
-    protected SoftAssert softAssert;
-    protected WebDriver driver;
     protected final String regression = "regression";
     protected  final String smoke = "smoke";
     protected final String automation = "automation";
     protected final String sauceDemo = "sauce-demo-automation";
     protected final String login = "sauce-demo-login";
     protected final String shopping = "sauce-demo-shopping";
-    protected WebDriverWait wait;
+    protected final String itemDetails = "sauce-demo-item-details";
+    protected final String footer = "sauce-demo-footer";
+    protected final String burgerMenu = "sauce-demo-burger-menu";
 
+    protected CommonFlows commonFlows = new CommonFlows();
+    private final DriverManager driverManager = new DriverManager();
     @BeforeMethod(alwaysRun = true)
     public void masterSetUp() {
-        softAssert = new SoftAssert();
-
-        Logs.debug("Init driver...");
-        driver = new ChromeDriver();
-        Logs.debug("Maximizing window...");
-        driver.manage().window().maximize();
-        Logs.debug("Clearing cookies...");
-        driver.manage().deleteAllCookies();
-
-        new WebDriverProvider().set(driver);
+        driverManager.buildDriver();
     }
 
     @AfterMethod(alwaysRun = true)
     public void masterTearDown() {
-        Logs.debug("Killing driver...");
-        driver.quit();
+        driverManager.killDriver();
     }
 }

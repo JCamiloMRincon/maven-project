@@ -1,20 +1,10 @@
-21:20:00.936 INFO  AUTOMATION - On start
-21:20:10.618 INFO  AUTOMATION - Navigating to the url
-21:20:12.800 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
-21:20:13.145 INFO  AUTOMATION - LoginPage has loaded successfully
-21:20:13.157 INFO  AUTOMATION - Writing the username
-21:20:13.469 INFO  AUTOMATION - Writing the password
-21:20:13.848 INFO  AUTOMATION - Click on the login button
-21:20:14.617 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-21:20:14.767 INFO  AUTOMATION - ShoppingPage has loaded successfully
-21:20:14.770 INFO  AUTOMATION - Opening the burger menu
-21:20:15.106 INFO  AUTOMATION - Waiting for the page BurgerMenuPage to be completely loaded
-21:20:15.278 INFO  AUTOMATION - BurgerMenuPage has loaded successfully
-21:20:15.279 INFO  AUTOMATION - Waiting for the logout button to be clickable because it has an animation
-21:20:15.526 INFO  AUTOMATION - On test starts: logoutTest
-21:20:15.701 INFO  AUTOMATION - Click on the logout option
-21:20:15.924 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
-21:20:15.979 INFO  AUTOMATION - LoginPage has loaded successfully
-21:20:15.981 INFO  AUTOMATION - Verifying the login page
-21:20:16.520 INFO  AUTOMATION - Test passed
-21:20:21.043 INFO  AUTOMATION - On finish
+21:33:05.608 INFO  AUTOMATION - On start
+21:33:14.782 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
+21:33:15.058 INFO  AUTOMATION - LoginPage has loaded successfully
+21:33:15.121 INFO  AUTOMATION - On test starts: invalidLoginTest
+21:33:15.316 INFO  AUTOMATION - Writing the username
+21:33:15.694 INFO  AUTOMATION - Writing the password
+21:33:16.016 INFO  AUTOMATION - Click on the login button
+21:33:16.361 INFO  AUTOMATION - Verifying the error message
+21:33:16.629 INFO  AUTOMATION - Test passed
+21:33:17.375 INFO  AUTOMATION - On finish

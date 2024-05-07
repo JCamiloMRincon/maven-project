@@ -8,13 +8,22 @@
       </run>
     </groups>
     <classes>
-      <class name="automation.SauceDemoTests">
+      <class name="automation.saucedemo.SauceDemoTests">
         <methods>
+          <include name="aboutLinkTest"/>
           <include name="masterTearDown"/>
           <include name="masterSetUp"/>
-          <include name="logoutTest"/>
         </methods>
-      </class> <!-- automation.SauceDemoTests -->
+      </class> <!-- automation.saucedemo.SauceDemoTests -->
+      <class name="automation.saucedemo.LoginTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="masterTearDown"/>
+          <include name="verifyLoginPageTest"/>
+          <include name="invalidLoginTest"/>
+          <include name="masterSetUp"/>
+        </methods>
+      </class> <!-- automation.saucedemo.LoginTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
