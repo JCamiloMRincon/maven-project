@@ -1,1 +1,1 @@
-./mvnw clean test -Dgroups="sauce-demo-automation"
+./mvnw clean test -Dgroups="sauce-demo-automation" -Dbrowser="edge" -Dheadless
