@@ -1,120 +1,38 @@
-19:27:15.726 INFO  AUTOMATION - On start
-19:27:15.781 DEBUG AUTOMATION - Deleting the previous evidence...
-19:27:16.275 DEBUG AUTOMATION - Init driver: EDGE
-19:27:16.275 DEBUG AUTOMATION - Headless mode? true
-19:27:28.970 DEBUG AUTOMATION - Maximizing window...
-19:27:29.168 DEBUG AUTOMATION - Clearing cookies...
-19:27:30.333 DEBUG AUTOMATION - Assigning the login cookie
-19:27:33.909 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:27:35.173 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:27:35.190 INFO  AUTOMATION - Opening the burger menu
-19:27:35.641 INFO  AUTOMATION - Waiting for the page BurgerMenuPage to be completely loaded
-19:27:35.791 INFO  AUTOMATION - BurgerMenuPage has loaded successfully
-19:27:35.795 INFO  AUTOMATION - Waiting for the logout button to be clickable because it has an animation
-19:27:36.052 INFO  AUTOMATION - On test starts: aboutButtonTest
-19:27:36.265 INFO  AUTOMATION - Verifying the about hyperlink
-19:27:36.401 DEBUG AUTOMATION - Before test stops of Allure
-19:27:36.471 INFO  AUTOMATION - Test passed
-19:27:36.475 DEBUG AUTOMATION - Killing driver...
-19:27:38.208 DEBUG AUTOMATION - Init driver: EDGE
-19:27:38.209 DEBUG AUTOMATION - Headless mode? true
-19:27:41.936 DEBUG AUTOMATION - Maximizing window...
-19:27:42.134 DEBUG AUTOMATION - Clearing cookies...
-19:27:42.176 DEBUG AUTOMATION - Assigning the login cookie
-19:27:45.160 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:27:45.418 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:27:45.419 INFO  AUTOMATION - Opening the burger menu
-19:27:45.622 INFO  AUTOMATION - Waiting for the page BurgerMenuPage to be completely loaded
-19:27:45.782 INFO  AUTOMATION - BurgerMenuPage has loaded successfully
-19:27:45.782 INFO  AUTOMATION - Waiting for the logout button to be clickable because it has an animation
-19:27:45.939 INFO  AUTOMATION - On test starts: logoutTest
-19:27:45.950 INFO  AUTOMATION - Click on the logout option
-19:27:46.314 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
-19:27:46.504 INFO  AUTOMATION - LoginPage has loaded successfully
-19:27:46.506 INFO  AUTOMATION - Verifying the login page
-19:27:46.728 DEBUG AUTOMATION - Before test stops of Allure
-19:27:46.755 INFO  AUTOMATION - Test passed
-19:27:46.760 DEBUG AUTOMATION - Killing driver...
-19:27:47.387 DEBUG AUTOMATION - Init driver: EDGE
-19:27:47.387 DEBUG AUTOMATION - Headless mode? true
-19:27:50.288 DEBUG AUTOMATION - Maximizing window...
-19:27:50.405 DEBUG AUTOMATION - Clearing cookies...
-19:27:50.442 DEBUG AUTOMATION - Assigning the login cookie
-19:27:52.809 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:27:53.152 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:27:53.159 INFO  AUTOMATION - On test starts: socialMediaLinksTest
-19:27:53.261 INFO  AUTOMATION - Verifying the social media links
-19:27:53.458 DEBUG AUTOMATION - Before test stops of Allure
-19:27:53.462 INFO  AUTOMATION - Test passed
-19:27:53.465 DEBUG AUTOMATION - Killing driver...
-19:27:54.927 DEBUG AUTOMATION - Init driver: EDGE
-19:27:54.928 DEBUG AUTOMATION - Headless mode? true
-19:27:57.831 DEBUG AUTOMATION - Maximizing window...
-19:27:57.956 DEBUG AUTOMATION - Clearing cookies...
-19:27:57.994 DEBUG AUTOMATION - Assigning the login cookie
-19:28:01.841 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:28:02.135 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:28:02.138 INFO  AUTOMATION - Navigating to the details of the item: Sauce Labs Fleece Jacket
-19:28:02.662 INFO  AUTOMATION - Waiting for the page ItemDetailsPage to be completely loaded
-19:28:02.950 INFO  AUTOMATION - ItemDetailsPage has loaded successfully
-19:28:02.982 INFO  AUTOMATION - On test starts: backToProductsTest
-19:28:03.009 INFO  AUTOMATION - Clicking on 'Back to products'
-19:28:04.365 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:28:04.446 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:28:04.448 INFO  AUTOMATION - Verifying the shopping page
-19:28:04.610 DEBUG AUTOMATION - Before test stops of Allure
-19:28:04.618 INFO  AUTOMATION - Test passed
-19:28:04.621 DEBUG AUTOMATION - Killing driver...
-19:28:06.233 DEBUG AUTOMATION - Init driver: EDGE
-19:28:06.233 DEBUG AUTOMATION - Headless mode? true
-19:28:09.193 DEBUG AUTOMATION - Maximizing window...
-19:28:09.349 DEBUG AUTOMATION - Clearing cookies...
-19:28:09.372 DEBUG AUTOMATION - Assigning the login cookie
-19:28:11.779 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:28:12.049 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:28:12.050 INFO  AUTOMATION - Navigating to the details of the item: Sauce Labs Fleece Jacket
-19:28:12.502 INFO  AUTOMATION - Waiting for the page ItemDetailsPage to be completely loaded
-19:28:12.602 INFO  AUTOMATION - ItemDetailsPage has loaded successfully
-19:28:12.606 INFO  AUTOMATION - On test starts: itemDetailsTest
-19:28:12.613 INFO  AUTOMATION - Verifying the item details page
-19:28:12.914 DEBUG AUTOMATION - Before test stops of Allure
-19:28:12.916 INFO  AUTOMATION - Test passed
-19:28:12.918 DEBUG AUTOMATION - Killing driver...
-19:28:14.458 DEBUG AUTOMATION - Init driver: EDGE
-19:28:14.458 DEBUG AUTOMATION - Headless mode? true
-19:28:17.328 DEBUG AUTOMATION - Maximizing window...
-19:28:17.447 DEBUG AUTOMATION - Clearing cookies...
-19:28:19.131 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
-19:28:19.335 INFO  AUTOMATION - LoginPage has loaded successfully
-19:28:19.425 INFO  AUTOMATION - On test starts: invalidLoginTest
-19:28:19.439 INFO  AUTOMATION - Writing the username
-19:28:19.836 INFO  AUTOMATION - Writing the password
-19:28:20.229 INFO  AUTOMATION - Click on the login button
-19:28:20.533 INFO  AUTOMATION - Verifying the error message
-19:28:20.594 DEBUG AUTOMATION - Before test stops of Allure
-19:28:20.597 INFO  AUTOMATION - Test passed
-19:28:20.599 DEBUG AUTOMATION - Killing driver...
-19:28:21.386 DEBUG AUTOMATION - Init driver: EDGE
-19:28:21.386 DEBUG AUTOMATION - Headless mode? true
-19:28:24.298 DEBUG AUTOMATION - Maximizing window...
-19:28:24.437 DEBUG AUTOMATION - Clearing cookies...
-19:28:25.751 INFO  AUTOMATION - Waiting for the page LoginPage to be completely loaded
-19:28:26.260 INFO  AUTOMATION - LoginPage has loaded successfully
-19:28:26.265 INFO  AUTOMATION - On test starts: verifyLoginPageTest
-19:28:26.273 INFO  AUTOMATION - Verifying the login page
-19:28:26.659 DEBUG AUTOMATION - Before test stops of Allure
-19:28:26.665 INFO  AUTOMATION - Test passed
-19:28:26.667 DEBUG AUTOMATION - Killing driver...
-19:28:28.197 DEBUG AUTOMATION - Init driver: EDGE
-19:28:28.197 DEBUG AUTOMATION - Headless mode? true
-19:28:30.859 DEBUG AUTOMATION - Maximizing window...
-19:28:31.005 DEBUG AUTOMATION - Clearing cookies...
-19:28:31.037 DEBUG AUTOMATION - Assigning the login cookie
-19:28:33.328 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
-19:28:33.621 INFO  AUTOMATION - ShoppingPage has loaded successfully
-19:28:33.628 INFO  AUTOMATION - On test starts: verifyShoppingPageTest
-19:28:33.634 INFO  AUTOMATION - Verifying the shopping page
-19:28:33.732 DEBUG AUTOMATION - Before test stops of Allure
-19:28:33.737 INFO  AUTOMATION - Test passed
-19:28:33.738 DEBUG AUTOMATION - Killing driver...
-19:28:35.303 INFO  AUTOMATION - On finish
+20:21:54.789 INFO  AUTOMATION - On start
+20:21:54.833 DEBUG AUTOMATION - Deleting the previous evidence...
+20:21:55.265 DEBUG AUTOMATION - Default driver CHROME
+20:21:55.269 DEBUG AUTOMATION - Init driver: CHROME
+20:21:55.270 DEBUG AUTOMATION - Headless mode? false
+20:22:01.249 DEBUG AUTOMATION - Maximizing window...
+20:22:01.551 DEBUG AUTOMATION - Clearing cookies...
+20:22:02.328 DEBUG AUTOMATION - Assigning the login cookie
+20:22:05.633 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
+20:22:05.891 INFO  AUTOMATION - ShoppingPage has loaded successfully
+20:22:05.937 INFO  AUTOMATION - Navigating to the details of the item: Sauce Labs Onesie
+20:22:06.285 INFO  AUTOMATION - Waiting for the page ItemDetailsPage to be completely loaded
+20:22:06.466 INFO  AUTOMATION - ItemDetailsPage has loaded successfully
+20:22:06.508 INFO  AUTOMATION - On test starts: backToProductsTest
+20:22:06.611 INFO  AUTOMATION - Clicking on 'Back to products'
+20:22:07.020 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
+20:22:07.091 INFO  AUTOMATION - ShoppingPage has loaded successfully
+20:22:07.093 INFO  AUTOMATION - Verifying the shopping page
+20:22:07.303 DEBUG AUTOMATION - Before test stops of Allure
+20:22:07.335 INFO  AUTOMATION - Test passed
+20:22:07.340 DEBUG AUTOMATION - Killing driver...
+20:22:09.539 DEBUG AUTOMATION - Default driver CHROME
+20:22:09.540 DEBUG AUTOMATION - Init driver: CHROME
+20:22:09.540 DEBUG AUTOMATION - Headless mode? false
+20:22:12.471 DEBUG AUTOMATION - Maximizing window...
+20:22:12.689 DEBUG AUTOMATION - Clearing cookies...
+20:22:12.839 DEBUG AUTOMATION - Assigning the login cookie
+20:22:15.129 INFO  AUTOMATION - Waiting for the page ShoppingPage to be completely loaded
+20:22:15.442 INFO  AUTOMATION - ShoppingPage has loaded successfully
+20:22:15.444 INFO  AUTOMATION - Navigating to the details of the item: Sauce Labs Bolt T-Shirt
+20:22:15.850 INFO  AUTOMATION - Waiting for the page ItemDetailsPage to be completely loaded
+20:22:16.029 INFO  AUTOMATION - ItemDetailsPage has loaded successfully
+20:22:16.052 INFO  AUTOMATION - On test starts: itemDetailsTest
+20:22:16.109 INFO  AUTOMATION - Verifying the item details page
+20:22:16.436 DEBUG AUTOMATION - Before test stops of Allure
+20:22:16.440 INFO  AUTOMATION - Test passed
+20:22:16.448 DEBUG AUTOMATION - Killing driver...
+20:22:20.654 INFO  AUTOMATION - On finish
